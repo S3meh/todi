@@ -47,7 +47,7 @@ todi.on('messageCreate', (msg) => {
         return;
     }
     if(msg.content == 'hello todi'){
-        msg.reply('hello,\n You can use my commands:\n /dare \n /truth \n /random');
+        msg.reply('hello,\n You can use my commands:\n /dare \n /truth \n /random \n /add');
     }
 });
 
