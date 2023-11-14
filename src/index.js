@@ -35,6 +35,7 @@ const truths = [
     "What is the most embarrassing thing in your camera roll?",
     "What is the most embarrassing thing you've ever said to your crush?"
 ];
+const names = [];
 
 
 
@@ -75,6 +76,9 @@ todi.on('interactionCreate', (interaction) => {
             interaction.reply(randomTruth);
         }
     }
-});
+    /*if(interaction.commandName == 'add'){
 
+    }*/
+});
+//console.log('Bot Token:', process.env.TOKEN);
 todi.login(process.env.TOKEN);
