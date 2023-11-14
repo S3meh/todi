@@ -27,8 +27,7 @@ const commands = [
         ],
     },
 ];
-
-
+console.log('Bot Token:', process.env.TOKEN);
 const rest = new REST({ version: '10'}).setToken(process.env.TOKEN);
 
 (async () => {
